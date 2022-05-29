@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image_onboarding"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="@dimen/dp30"
+        android:layout_marginEnd="@dimen/dp30"
+        android:scaleType="fitXY" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_onboarding_title"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/dp50"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_onboarding"
+        android:layout_marginStart="@dimen/dp20"
+        android:layout_marginEnd="@dimen/dp20"
+        android:textColor="@color/color_0C1A30"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_onboarding_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_onboarding_title"
+        android:layout_marginStart="@dimen/dp20"
+        android:layout_marginTop="@dimen/dp15"
+        android:layout_marginEnd="@dimen/dp20"
+        android:lineSpacingExtra="@dimen/dp10"
+        android:textColor="@color/color_0C1A30"
+        android:textSize="14sp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_onboarding_more"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_onboarding_description"
+        android:layout_marginStart="@dimen/dp20"
+        android:layout_marginTop="@dimen/dp10"
+        android:layout_marginEnd="@dimen/dp20"
+        android:textColor="@color/colorAccent"
+        android:textSize="14sp" />
+</RelativeLayout>

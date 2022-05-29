@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:background="@color/ef_white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp60"
+            android:background="@color/colorWhite"
+            android:elevation="@dimen/dp4"
+            android:fadeScrollbars="false"
+            app:contentInsetStart="0dp"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="UnusedAttribute">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorWhite">
+
+
+                <TextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:alpha="1"
+                    android:elevation="@dimen/dp8"
+                    android:fontFamily="@font/bevietnampro_bold"
+                    android:gravity="center"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="Đăng kí nhà hàng"
+                    android:textColor="@color/color_0C1A30"
+                    android:textSize="20sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            app:layout_constraintTop_toBottomOf="@id/toolbar"
+            android:layout_marginHorizontal="@dimen/dp14"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/edt_name"
+                android:background="@drawable/bg_edt_add_food"
+                android:hint="Họ và tên"
+                android:layout_marginTop="40dp"
+                android:padding="@dimen/dp12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/dp20"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_height="wrap_content" >
+
+                <EditText
+                    android:id="@+id/edt_year"
+                    android:background="@drawable/bg_edt_add_food"
+                    android:hint="Tuổi"
+                    android:padding="@dimen/dp12"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp" />
+
+
+            </LinearLayout>
+
+            <EditText
+                android:layout_marginTop="20dp"
+                android:id="@+id/edt_address"
+                android:background="@drawable/bg_edt_add_food"
+                android:hint="Địa chỉ"
+                android:padding="@dimen/dp12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:layout_marginTop="20dp"
+                android:id="@+id/edt_phone"
+                android:background="@drawable/bg_edt_add_food"
+                android:hint="Số điện thoại"
+                android:padding="@dimen/dp12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+            <EditText
+                android:layout_marginTop="20dp"
+                android:id="@+id/edt_email"
+                android:background="@drawable/bg_edt_add_food"
+                android:hint="Email"
+                android:padding="@dimen/dp12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <EditText
+                android:layout_marginTop="20dp"
+                android:id="@+id/edt_password"
+                android:background="@drawable/bg_edt_add_food"
+                android:hint="Mật khẩu"
+                android:padding="@dimen/dp12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:layout_marginTop="20dp"
+                android:id="@+id/edt_name_restaurant"
+                android:background="@drawable/bg_edt_add_food"
+                android:hint="Tên nhà hàng"
+                android:padding="@dimen/dp12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="51dp"
+            android:background="@drawable/bg_btn_login"
+            android:text="Lưu"
+            android:textAllCaps="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/colorWhite"
+            android:textFontWeight="700"
+            android:textSize="14sp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

@@ -1,0 +1,176 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'realm-android'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdkVersion 32
+    buildToolsVersion "29.0.3"
+    defaultConfig {
+        applicationId "com.restaurant.exam"
+        minSdk 19
+        targetSdkVersion 32
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+
+
+    buildTypes {
+        debug {
+            try {
+                minifyEnabled false
+                buildConfigField "String", "API_URL", "\"https://api.youfitemstraining.com/api/\""
+                buildConfigField "String", "SHARE_URL", "\"https://api.youfitemstraining.com/public/\""
+                buildConfigField "String", "SOCKET_URL", "\"https://api.youfitemstraining.com/\""
+                buildConfigField "String", "BRANCH", "\"production\""
+                buildConfigField "String", "TOPIC_ALL", "\"youfit_all_android\""
+                buildConfigField "String", "TOPIC_ADMIN", "\"youfit_all_admin_android\""
+
+//                buildConfigField "String", "API_URL", "\"http://192.168.1.8:8080/api/\""
+//                buildConfigField "String", "SHARE_URL", "\"http://192.168.1.8:8080/public/\""
+//                buildConfigField "String", "SOCKET_URL", "\"http://192.168.1.8:8080/\""
+                debuggable true
+            } catch (e) {
+                // add gradle.properties file with the following property:
+                // openweathermap_key = "YOUR_API_KEY"
+                throw e
+            }
+        }
+        release {
+            buildConfigField "String", "API_URL", "\"https://api.youfitemstraining.com/api/\""
+            buildConfigField "String", "SHARE_URL", "\"https://api.youfitemstraining.com/public/\""
+            buildConfigField "String", "SOCKET_URL", "\"https://api.youfitemstraining.com/\""
+            buildConfigField "String", "BRANCH", "\"production\""
+            buildConfigField "String", "TOPIC_ALL", "\"youfit_all_android\""
+            buildConfigField "String", "TOPIC_ADMIN", "\"youfit_all_admin_android\""
+
+//            buildConfigField "String", "API_URL", "\"http://192.168.1.113:8080/api/\""
+//            buildConfigField "String", "SHARE_URL", "\"http://1192.168.1.113:8080/public/\""
+//            buildConfigField "String", "SOCKET_URL", "\"http://192.168.1.113:8080/\""
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+    dataBinding {
+        enabled = true
+    }
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+// This is added automatically if Kotlin is registered in the project, but Kotlin extension functions
+// for Realm can be excluded if needed.
+realm {
+    kotlinExtensionsEnabled = true
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation "com.android.support:design:$android_support_version"
+    implementation "com.google.android.material:material:1.4.0"
+    implementation 'com.google.android.gms:play-services-location:18.0.0'
+
+    // Declare the dependency for the Firebase Authentication library
+    // When using the BoM, you don't specify versions in Firebase library dependencies
+    implementation 'androidx.browser:browser:1.3.0'
+
+    // Data binding
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.4.2'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.4.2'
+    implementation 'com.google.firebase:firebase-database-ktx:20.0.5'
+    implementation 'com.google.firebase:firebase-messaging-ktx:23.0.5'
+    kapt "com.android.databinding:compiler:3.1.4"
+
+    // ViewModel
+    implementation "androidx.lifecycle:lifecycle-viewmodel:$lifecycle_version"
+    // LiveData
+    implementation "androidx.lifecycle:lifecycle-livedata:$lifecycle_version"
+
+    // Retrofit
+    implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
+    implementation "com.squareup.retrofit2:adapter-rxjava2:$retrofit_version"
+    implementation "com.squareup.retrofit2:converter-gson:$retrofit_version"
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.2.2'
+
+
+    // Dagger 2
+    implementation "com.google.dagger:dagger:$dagger2_version"
+    kapt "com.google.dagger:dagger-compiler:$dagger2_version"
+    compileOnly "org.glassfish:javax.annotation:3.1.1"
+    //Rx
+    implementation "io.reactivex.rxjava2:rxjava:2.1.15"
+    implementation "io.reactivex.rxjava2:rxandroid:2.0.2"
+
+    // Room
+    implementation "android.arch.persistence.room:runtime:$room_version"
+    kapt "android.arch.persistence.room:compiler:$room_version"
+
+    //Glide
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
+
+    //Gson
+    implementation 'com.google.code.gson:gson:2.8.6'
+
+    //fonts
+    implementation 'io.github.inflationx:calligraphy3:3.1.1'
+    implementation 'io.github.inflationx:viewpump:2.0.3'
+
+    //facebook
+    implementation 'com.facebook.android:facebook-login:5.15.3'
+
+    //login google
+    implementation 'com.google.android.gms:play-services-auth:18.0.0'
+
+    //multidex
+    implementation 'androidx.multidex:multidex:2.0.1'
+
+    //circle
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+
+    //image picker
+    implementation 'com.github.esafirm.android-image-picker:imagepicker:2.2.0'
+    implementation 'com.github.esafirm.android-image-picker:rximagepicker:2.2.0'
+
+    //imageviewer
+    implementation 'com.facebook.fresco:fresco:2.2.0'
+    implementation 'com.github.stfalcon:frescoimageviewer:0.5.0'
+
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.core:core-ktx:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0-alpha03'
+    //chart
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+
+    //calendar
+    implementation 'com.github.prolificinteractive:material-calendarview:1.6.0'
+    implementation 'com.github.zhpanvip:bannerviewpager:3.5.5'
+
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/menuItem_upload"
+        android:title="Tăng dần" />
+    <item
+        android:id="@+id/menuItem_bookmark"
+        android:title="Giảm dần" />
+</menu>

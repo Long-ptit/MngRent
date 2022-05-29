@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../layout/custom_preview.xml" value="0.18177083333333333" />
+        <entry key="..\:/Android/ProjectAndroid/Manage_Restaurant/app/src/main/res/drawable/bg_bottom_sheet.xml" value="0.187" />
+        <entry key="..\:/Android/ProjectAndroid/Manage_Restaurant/app/src/main/res/drawable/bg_btn_save.xml" value="0.126" />
+        <entry key="..\:/Android/ProjectAndroid/Manage_Restaurant/app/src/main/res/drawable/bg_edt_add_food.xml" value="0.1195" />
+        <entry key="..\:/Android/ProjectAndroid/Manage_Restaurant/app/src/main/res/drawable/bg_statistic.xml" value="0.1" />
+        <entry key="..\:/Android/ProjectAndroid/Manage_Restaurant/app/src/main/res/drawable/bg_table_item.xml" value="0.2015" />
+        <entry key="..\:/Android/ProjectAndroid/Manage_Restaurant/app/src/main/res/layout/activity_intro.xml" value="0.10885416666666667" />
+        <entry key="..\:/Android/ProjectAndroid/Manage_Restaurant/app/src/main/res/layout/fragment_home.xml" value="0.3625" />
+        <entry key="..\:/Android/ProjectAndroid/Manage_Restaurant/app/src/main/res/layout/fragment_menu.xml" value="0.176" />
+        <entry key="..\:/Android/ProjectAndroid/Manage_Restaurant/app/src/main/res/layout/fragment_news.xml" value="0.2361111111111111" />
+        <entry key="..\:/Android/ProjectAndroid/Manage_Restaurant/app/src/main/res/layout/fragment_statistic.xml" value="0.2" />
+        <entry key="..\:/Android/ProjectAndroid/Manage_Restaurant/app/src/main/res/layout/fragment_user.xml" value="0.176" />
+        <entry key="..\:/Android/ProjectAndroid/Manage_Restaurant/app/src/main/res/layout/item_floor.xml" value="0.6" />
+        <entry key="..\:/Android/ProjectAndroid/Manage_Restaurant/app/src/main/res/layout/item_food_add.xml" value="0.16799999999999998" />
+        <entry key="..\:/Android/ProjectAndroid/Manage_Restaurant/app/src/main/res/layout/item_food_add_menu.xml" value="0.24583333333333332" />
+        <entry key="..\:/Android/ProjectAndroid/Manage_Restaurant/app/src/main/res/layout/item_food_in_bill.xml" value="0.24583333333333332" />
+        <entry key="..\:/Android/ProjectAndroid/Manage_Restaurant/app/src/main/res/layout/item_food_table.xml" value="0.10400000000000001" />
+        <entry key="..\:/Android/ProjectAndroid/Manage_Restaurant/app/src/main/res/layout/item_spinner_floor.xml" value="0.3625" />
+        <entry key="..\:/Android/ProjectAndroid/Manage_Restaurant/app/src/main/res/layout/item_staff.xml" value="0.25" />
+        <entry key="..\:/Android/ProjectAndroid/Manage_Restaurant/app/src/main/res/layout/item_statistic_bill.xml" value="0.264" />
+        <entry key="..\:/Android/ProjectAndroid/Manage_Restaurant/app/src/main/res/layout/item_table.xml" value="0.2413793103448276" />
+        <entry key="..\:/Android/ProjectAndroid/Manage_Restaurant/app/src/main/res/layout/item_table_add.xml" value="0.18697916666666667" />
+        <entry key="..\:/Android/ProjectAndroid/Manage_Restaurant/app/src/main/res/layout/layout_about.xml" value="0.10885416666666667" />
+        <entry key="..\:/Android/ProjectAndroid/Manage_Restaurant/app/src/main/res/layout/layout_add_food.xml" value="0.2" />
+        <entry key="..\:/Android/ProjectAndroid/Manage_Restaurant/app/src/main/res/layout/layout_add_food_table.xml" value="0.2111111111111111" />
+        <entry key="..\:/Android/ProjectAndroid/Manage_Restaurant/app/src/main/res/layout/layout_add_staff.xml" value="0.2" />
+        <entry key="..\:/Android/ProjectAndroid/Manage_Restaurant/app/src/main/res/layout/layout_bottom_add_floor.xml" value="0.16" />
+        <entry key="..\:/Android/ProjectAndroid/Manage_Restaurant/app/src/main/res/layout/layout_bottom_add_food.xml" value="0.18697916666666667" />
+        <entry key="..\:/Android/ProjectAndroid/Manage_Restaurant/app/src/main/res/layout/layout_confirm_bill.xml" value="0.24583333333333332" />
+        <entry key="..\:/Android/ProjectAndroid/Manage_Restaurant/app/src/main/res/layout/layout_detail_food.xml" value="0.24583333333333332" />
+        <entry key="..\:/Android/ProjectAndroid/Manage_Restaurant/app/src/main/res/layout/layout_detail_profile_admin.xml" value="0.1" />
+        <entry key="..\:/Android/ProjectAndroid/Manage_Restaurant/app/src/main/res/layout/layout_detail_profile_staff.xml" value="0.128" />
+        <entry key="..\:/Android/ProjectAndroid/Manage_Restaurant/app/src/main/res/layout/layout_detail_staff.xml" value="0.176" />
+        <entry key="..\:/Android/ProjectAndroid/Manage_Restaurant/app/src/main/res/layout/layout_detail_statistic.xml" value="0.2" />
+        <entry key="..\:/Android/ProjectAndroid/Manage_Restaurant/app/src/main/res/layout/layout_detail_table.xml" value="0.2" />
+        <entry key="..\:/Android/ProjectAndroid/Manage_Restaurant/app/src/main/res/layout/layout_error_dialog.xml" value="0.24583333333333332" />
+        <entry key="..\:/Android/ProjectAndroid/Manage_Restaurant/app/src/main/res/layout/layout_login.xml" value="0.176" />
+        <entry key="..\:/Android/ProjectAndroid/Manage_Restaurant/app/src/main/res/layout/layout_main.xml" value="0.25" />
+        <entry key="..\:/Android/ProjectAndroid/Manage_Restaurant/app/src/main/res/layout/layout_main_staff.xml" value="0.176" />
+        <entry key="..\:/Android/ProjectAndroid/Manage_Restaurant/app/src/main/res/layout/layout_manage_restaurant.xml" value="0.13936781609195403" />
+        <entry key="..\:/Android/ProjectAndroid/Manage_Restaurant/app/src/main/res/layout/layout_manage_staff.xml" value="0.25" />
+        <entry key="..\:/Android/ProjectAndroid/Manage_Restaurant/app/src/main/res/layout/layout_signup.xml" value="0.24583333333333332" />
+        <entry key="..\:/Android/ProjectAndroid/Manage_Restaurant/app/src/main/res/menu/menu_main.xml" value="0.25" />
+        <entry key="..\:/Android/ProjectAndroid/Manage_Restaurant/app/src/main/res/menu/menu_main_staff.xml" value="0.25" />
+        <entry key="..\:/Android/ProjectAndroid/Manage_Restaurant/app/src/main/res/menu/menu_popup.xml" value="0.24583333333333332" />
+        <entry key="..\:/Android/ProjectAndroid/acom-android/app/src/main/res/drawable/bg_text_input.xml" value="0.195" />
+        <entry key="..\:/Android/ProjectAndroid/acom-android/app/src/main/res/drawable/ic_user_select.xml" value="0.1205" />
+        <entry key="..\:/Android/ProjectAndroid/acom-android/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Android/ProjectAndroid/acom-android/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Android/ProjectAndroid/acom-android/app/src/main/res/layout/fragment_news.xml" value="0.2351851851851852" />
+        <entry key="..\:/Android/ProjectAndroid/acom-android/app/src/main/res/layout/fragment_statistic.xml" value="0.25" />
+        <entry key="..\:/Android/ProjectAndroid/acom-android/app/src/main/res/layout/layout_login.xml" value="0.25" />
+        <entry key="..\:/Android/ProjectAndroid/acom-android/app/src/main/res/layout/layout_main.xml" value="0.1" />
+        <entry key="..\:/Android/ProjectAndroid/acom-android/app/src/main/res/layout/layout_splash.xml" value="0.25" />
+        <entry key="..\:/Android/ProjectAndroid/acom-android/app/src/main/res/menu/menu_main.xml" value="0.25" />
+        <entry key="app/src/main/res/drawable/bg_rate_good.xml" value="0.1645" />
+        <entry key="app/src/main/res/drawable/border_search_text.xml" value="0.38358974358974357" />
+        <entry key="app/src/main/res/drawable/bottom_navigation_colors.xml" value="0.2485" />
+        <entry key="app/src/main/res/drawable/ic_account_selector.xml" value="0.2485" />
+        <entry key="app/src/main/res/drawable/ic_arrow_up.xml" value="0.38358974358974357" />
+        <entry key="app/src/main/res/drawable/ic_cart.xml" value="0.207" />
+        <entry key="app/src/main/res/drawable/ic_home.xml" value="0.208" />
+        <entry key="app/src/main/res/drawable/ic_home_select.xml" value="0.10113061523437497" />
+        <entry key="app/src/main/res/drawable/ic_home_selector.xml" value="0.2485" />
+        <entry key="app/src/main/res/drawable/ic_home_un_select.xml" value="0.207" />
+        <entry key="app/src/main/res/drawable/ic_logo.xml" value="0.204" />
+        <entry key="app/src/main/res/drawable/ic_logout.xml" value="0.208" />
+        <entry key="app/src/main/res/drawable/ic_menu.xml" value="0.1975" />
+        <entry key="app/src/main/res/drawable/ic_menu_select.xml" value="0.1975" />
+        <entry key="app/src/main/res/drawable/ic_news.xml" value="0.1975" />
+        <entry key="app/src/main/res/drawable/ic_notification.xml" value="0.207" />
+        <entry key="app/src/main/res/drawable/ic_order_selected.xml" value="0.2485" />
+        <entry key="app/src/main/res/drawable/ic_order_selector.xml" value="0.2485" />
+        <entry key="app/src/main/res/drawable/ic_order_un_selected.xml" value="0.2485" />
+        <entry key="app/src/main/res/drawable/ic_profile_selected.xml" value="0.2485" />
+        <entry key="app/src/main/res/drawable/ic_profile_un_selected.xml" value="0.2485" />
+        <entry key="app/src/main/res/drawable/ic_search.xml" value="0.208" />
+        <entry key="app/src/main/res/drawable/ic_shop_select.xml" value="0.207" />
+        <entry key="app/src/main/res/drawable/ic_star.xml" value="0.208" />
+        <entry key="app/src/main/res/drawable/ic_statistic.xml" value="0.207" />
+        <entry key="app/src/main/res/drawable/ic_wishlist_select.xml" value="0.2485" />
+        <entry key="app/src/main/res/drawable/ic_wishlist_selector.xml" value="0.2485" />
+        <entry key="app/src/main/res/drawable/ic_wishlist_un_select.xml" value="0.2485" />
+        <entry key="app/src/main/res/drawable/launch_screen.xml" value="0.2485" />
+        <entry key="app/src/main/res/drawable/progressbar_speed.xml" value="0.1645" />
+        <entry key="app/src/main/res/drawable/selector_home.xml" value="0.208" />
+        <entry key="app/src/main/res/drawable/selector_menu.xml" value="0.207" />
+        <entry key="app/src/main/res/drawable/selector_news.xml" value="0.207" />
+        <entry key="app/src/main/res/drawable/selector_statistic.xml" value="0.207" />
+        <entry key="app/src/main/res/drawable/selector_user.xml" value="0.207" />
+        <entry key="app/src/main/res/layout-v21/layout_toolbar_home.xml" value="0.3734375" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.31145833333333334" />
+        <entry key="app/src/main/res/layout/activity_news.xml" value="0.18958333333333333" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.3591485507246377" />
+        <entry key="app/src/main/res/layout/fragment_menu.xml" value="0.19947916666666668" />
+        <entry key="app/src/main/res/layout/fragment_news.xml" value="0.19947916666666668" />
+        <entry key="app/src/main/res/layout/fragment_news_list.xml" value="0.3854166666666667" />
+        <entry key="app/src/main/res/layout/fragment_order.xml" value="0.3201812744140625" />
+        <entry key="app/src/main/res/layout/fragment_product.xml" value="0.37552083333333336" />
+        <entry key="app/src/main/res/layout/fragment_statistic.xml" value="0.19947916666666668" />
+        <entry key="app/src/main/res/layout/fragment_user.xml" value="0.37552083333333336" />
+        <entry key="app/src/main/res/layout/fragment_wishlist.xml" value="0.37552083333333336" />
+        <entry key="app/src/main/res/layout/item_banner.xml" value="0.2421875" />
+        <entry key="app/src/main/res/layout/item_news.xml" value="0.3854166666666667" />
+        <entry key="app/src/main/res/layout/item_order.xml" value="0.3854166666666667" />
+        <entry key="app/src/main/res/layout/item_product.xml" value="0.22864583333333333" />
+        <entry key="app/src/main/res/layout/layout_error_dialog.xml" value="0.15520833333333334" />
+        <entry key="app/src/main/res/layout/layout_login.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/layout_main.xml" value="0.20946960449218752" />
+        <entry key="app/src/main/res/layout/layout_splash.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/layout_toolbar_home.xml" value="0.3880208333333333" />
+        <entry key="app/src/main/res/menu/menu_main.xml" value="0.31145833333333334" />
+        <entry key="app/src/main/res/menu/menu_main_2.xml" value="0.31145833333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

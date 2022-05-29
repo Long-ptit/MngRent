@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">MngRent</string>
+    <string name="api_default_error">Có lỗi xảy ra</string>
+    <string name="api_retry_error">Vui lòng thử lại</string>
+    <string name="str_authe">Tài khoản không hợp lệ/Nhập sai mật khẩu</string>
+    <string name="text_all_has_error_please_try">Có lỗi xảy ra, vui lòng thử lại!</string>
+    <string name="text_all_has_error_timeout">Kết nối thất bại!</string>
+    <string name="text_all_has_error_network">Lỗi kết nối mạng!</string>
+    <string name="facebook_app_id" translatable="false">833647787184360</string>
+    <string name="str_statistic">Thống kê</string>
+    <string name="str_news">Tin tức</string>
+    <string name="str_home">Nhà Hàng</string>
+    <string name="str_menu">Thực đơn</string>
+    <string name="str_user">Quản lý</string>
+    <string name="str_login">Đăng nhập</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="str_forgot_pass">Quên mật khẩu?</string>
+    <string name="str_or">Hoặc</string>
+    <string name="str_sign_up">Đăng ký</string>
+    <string name="str_intro1">Wellcome!</string>
+    <string name="str_contneu">Tiếp tục</string>
+    <string name="str_intr02">Chào mừng đến với MngRent chúng tôi rất vui vì bạn đã sử dụng dịch vụ</string>
+    <string name="str_intro3">Tech world!</string>
+    <string name="str_intro4">Quản lí nhà hàng 1 cách nhanh gọn và hợp lí</string>
+    <string name="str_intro5">Lets go!</string>
+    <string name="str_intro6">Bạn còn chờ gì nữa, hãy bắt đầu với dịch vụ tuyệt vời của chúng tôi!</string>
+    
+    <string-array name="listCategory" >
+        <item> Đồ ăn </item>
+        <item> Đồ uống </item>
+    </string-array>
+
+
+    <string-array name="sortList" >
+        <item> Không </item>
+        <item> Giá tăng dần </item>
+        <item> Giá giảm dần </item>
+    </string-array>
+
+
+</resources>

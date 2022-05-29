@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:visible="false"
+        android:id="@+id/action_news"
+        android:icon="@drawable/selector_news"
+        android:title="@string/str_news" />
+    <item
+        android:id="@+id/action_statistic"
+        android:icon="@drawable/selector_statistic"
+        android:title="@string/str_statistic" />
+    <item
+        android:id="@+id/action_home"
+        android:icon="@drawable/selector_home"
+        android:title="@string/str_home" />
+    <item
+        android:id="@+id/action_menu"
+        android:icon="@drawable/selector_menu"
+        android:title="@string/str_menu" />
+    <item
+        android:id="@+id/action_acc"
+        android:icon="@drawable/selector_user"
+        android:title="@string/str_user" />
+</menu>

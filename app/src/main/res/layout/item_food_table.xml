@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/layout_food"
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            app:cardCornerRadius="10dp"
+            android:backgroundTint= "#C4C4C4"
+            android:layout_height="@dimen/dp140">
+            <RelativeLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/img_logo"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp62"
+                    android:scaleType="centerCrop"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/img_test_food" />
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cày tơ 7 món"
+                    android:layout_below="@id/img_logo"
+                    android:textSize="@dimen/sp14"
+                    android:textColor="@color/colorWhite"
+                    android:layout_marginStart="@dimen/dp10" />
+
+                <TextView
+                    android:id="@+id/tv_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="700000"
+                    android:textSize="@dimen/sp10"
+                    android:textColor="@color/colorWhite"
+                    android:layout_marginBottom="@dimen/dp15"
+                    android:layout_below="@id/tv_name"
+                    android:layout_marginStart="@dimen/dp10" />
+
+                <TextView
+                    android:id="@+id/tv_quantity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="x7"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginEnd="@dimen/dp10"
+                    android:textSize="@dimen/sp10"
+                    android:textColor="@color/colorWhite"
+                    android:layout_marginBottom="@dimen/dp15"
+                    android:layout_below="@id/tv_name" />
+
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/layout_add_food"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp140"
+            app:cardCornerRadius="@dimen/dp10"
+            android:backgroundTint="#2FCA5A" >
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_add" />
+
+                <TextView
+                    android:textColor="@color/colorWhite"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="@dimen/sp14"
+                    android:layout_height="wrap_content"
+                    android:text="Thêm món" />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</layout>

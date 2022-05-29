@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/ef_white">
+
+        <com.restaurant.exam.utils.custom_view.ViewPagerWithoutSwipe
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="60dp"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNav"
+            style="@style/BottomNavigationViewStyle"
+            android:theme="@style/BottomNavigationViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp60"
+            android:layout_gravity="bottom"
+            android:background="@color/colorWhite"
+            app:elevation="8dp"
+            app:itemIconSize="26dp"
+            app:itemIconTint="@drawable/bottom_navigation_colors"
+            app:itemTextColor="@drawable/bottom_navigation_colors"
+            app:labelVisibilityMode="selected"
+            app:menu="@menu/menu_main_staff"
+            app:hideOnScroll="true"
+            app:layout_behavior="com.google.android.material.behavior.HideBottomViewOnScrollBehavior"/>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>
